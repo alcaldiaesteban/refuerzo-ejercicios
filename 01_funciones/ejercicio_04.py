@@ -1,37 +1,21 @@
-# ============================================================
-# EJERCICIO 4 — Funciones con lógica (ejercicio integrador)
-# Módulo: Funciones
-# ============================================================
-#
-# CONCEPTO:
-#   Las funciones pueden tener lógica compleja dentro:
-#   if/else, cálculos, etc. Todo se organiza mejor así.
-#
-# TAREA:
-#   Crea un programa de "calculadora simple" usando funciones.
-#
-#   1. Función "calcular_promedio(n1, n2, n3)":
-#      - Recibe tres notas
-#      - Retorna el promedio (suma / 3)
-#
-#   2. Función "obtener_estado(promedio)":
-#      - Si el promedio es >= 6: retorna "Aprobado"
-#      - Si el promedio es >= 4 y < 6: retorna "En riesgo"
-#      - Si el promedio es < 4: retorna "Reprobado"
-#
-#   3. Al final, pide al usuario que ingrese 3 notas con input(),
-#      calcula el promedio usando la función 1,
-#      obtén el estado usando la función 2,
-#      e imprime un resumen así:
-#
-#      Promedio: 5.67
-#      Estado: En riesgo
-#
-# PISTA para leer números con input():
-#   numero = float(input("Ingresa la nota: "))
-#
-# ============================================================
-# ESCRIBE TU CÓDIGO ABAJO:
-# ============================================================
+# Ejercicio 4 - calculadora de notas
+
+# Vas a hacer un programa que pida 3 notas y diga si el alumno aprobó.
+# Organiza el código en dos funciones:
+
+# calcular_promedio(n1, n2, n3)
+#   - recibe tres notas y retorna el promedio
+
+# obtener_estado(promedio)
+#   - si promedio >= 6 -> retorna "Aprobado"
+#   - si promedio >= 4 -> retorna "En riesgo"
+#   - si no           -> retorna "Reprobado"
+
+# Al final del archivo:
+#   - pide 3 notas con input() (recuerda convertirlas a float)
+#   - llama las dos funciones
+#   - imprime algo como:
+#       Promedio: 5.67
+#       Estado: En riesgo
 
 

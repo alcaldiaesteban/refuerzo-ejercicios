@@ -1,35 +1,19 @@
-# ============================================================
-# EJERCICIO 4 — Mini proyecto integrador
-# Módulo: Librerías (math + random + datetime + funciones + for)
-# ============================================================
-#
-# PROYECTO: "Generador de examen aleatorio"
-#
-# El programa debe hacer lo siguiente:
-#
-#   1. Mostrar la fecha y hora en que se generó el examen.
-#
-#   2. Generar 5 preguntas de SUMA aleatoria:
-#      - Cada pregunta usa dos números aleatorios entre 1 y 20.
-#      - Muestra la pregunta: "Pregunta 1: ¿Cuánto es 7 + 13?"
-#      - Pide la respuesta al usuario con input().
-#      - Al finalizar las 5 preguntas, muestra cuántas acertó.
-#
-#   3. Al final muestra:
-#      - Puntaje: X de 5 correctas
-#      - Porcentaje de aciertos (usa math para redondear)
-#      - Un mensaje según el puntaje:
-#          5/5 → "Perfecto! Excelente trabajo"
-#          3-4 → "Bien! Sigue practicando"
-#          0-2 → "Necesitas repasar más"
-#
-# PISTA: organiza el código en funciones:
-#   - generar_pregunta()   → retorna dos números aleatorios
-#   - verificar_respuesta(n1, n2, respuesta_usuario) → retorna True/False
-#   - obtener_mensaje(puntaje) → retorna el mensaje según el puntaje
-#
-# ============================================================
-# ESCRIBE TU CÓDIGO ABAJO:
-# ============================================================
+# Ejercicio 4 - mini proyecto: examen de sumas
+
+# El programa genera 5 preguntas de suma con números aleatorios y lleva el puntaje.
+
+# Lo que debe hacer:
+# - Mostrar la fecha y hora al iniciar
+# - Generar 5 sumas con números entre 1 y 20 (random)
+# - Pedir la respuesta del usuario en cada una
+# - Al final mostrar cuántas acertó, el porcentaje y un mensaje:
+#     5/5   -> "Perfecto! Excelente trabajo"
+#     3 o 4 -> "Bien! Sigue practicando"
+#     0-2   -> "Necesitas repasar más"
+
+# Sugerencia: organízalo en funciones.
+#   generar_pregunta()                        -> retorna dos números aleatorios
+#   verificar(n1, n2, respuesta)              -> retorna True o False
+#   mensaje_final(puntaje)                    -> retorna el mensaje según el puntaje
 
 
